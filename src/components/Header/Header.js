@@ -57,9 +57,6 @@ const NavLink = styled.a`
   &:first-of-type {
     color: ${COLORS.secondary};
   }
-
-  &:last-of-type {
-  }
 `;
 
 export default Header;
