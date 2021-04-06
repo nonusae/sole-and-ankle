@@ -77,7 +77,7 @@ const ShoeCard = ({
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
-  flex-basis: calc(33% - 64px);
+  flex-basis: 340px;
   flex-grow: 1;
 
   &:last-of-type {
@@ -134,6 +134,7 @@ const SpecialTag = styled.div`
   color: white;
   background-color: var(--background-color);
   border-radius 2px;
+  font-weight: ${WEIGHTS['bold']}
 `
 
 export default ShoeCard;

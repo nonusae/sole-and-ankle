@@ -63,6 +63,7 @@ const Header = styled.header`
   display:flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
 `;
 
 const Title = styled.h2`
